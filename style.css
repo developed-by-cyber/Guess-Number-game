@@ -118,6 +118,10 @@ p {
   color: #565b70;
   word-break: break-all;
 }
+#hint{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .error,
 .success {
   padding: 0.5em 0;
