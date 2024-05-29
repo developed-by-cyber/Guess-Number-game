@@ -6,7 +6,6 @@
 }
 body {
   background-color: #101b38;
-  /* background-color: #3b184b; */
 }
 .container {
   width: min(90%, 34.25em);
@@ -15,22 +14,18 @@ body {
   top: 50%;
   left: 50%;
   background-color: #ffffff;
-  /* padding: 4em 2em; */
   padding: 20px 20px;
   border-radius: 0.5em;
-  /* box-shadow: -1.5em -1.5em #202020; */
   text-align: center;
 }
 h3 {
   font-size: 1.2em;
   font-weight: 500;
   margin-bottom: 15px;
-  /* line-height: 2em; */
   color: #303030;
 }
 #game{
   display: flex;
-  /* background-color: red; */
   flex-direction: column;
   align-items: center;
 }
@@ -42,15 +37,7 @@ h3 {
 }
 img{
   width: 130px;
-  /* filter: drop-shadow(10px 6px  4px rgba(0, 0, 0, 0.11)); */
 }
-/* .input-wrapper {
-  width: 70%;
-  display: grid;
-  grid-template-columns: 2fr 3fr;
-  gap: 1em;
-  margin: 3em auto 1.5em auto;
-} */
 input[type="number"] {
   width:38%;
   padding: 0.8em;
@@ -149,7 +136,6 @@ p {
   width: 100%;
   font-size: 18px;
   color: #ff3e3e;
-  /* background-color: #05c451; */
 }
 #sad{
   width: 70px;
@@ -177,8 +163,6 @@ p {
   font-size: 15px;
   font-weight: 600;
   border: 1.8px solid #101b38;
-  /* background-color: rgba(0, 0, 0, 0.705); */
-  /* background-color: ; */
   cursor: pointer;
 }
 #modal{
@@ -238,7 +222,6 @@ p {
   color: #ff3e3e;
 }
 .success {
-  /* background-color: #b9ffd5; */
   color: #05c451;
   font-size: 18px;
 }

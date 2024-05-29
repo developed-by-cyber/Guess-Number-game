@@ -69,7 +69,6 @@ const init = () => {
   console.log(answer);
   noOfGuesses = 3;
   bar.style.width = '0%';
-  // noOfGuesses = 0;
   noOfGuessesRef.innerHTML = "3";
   guessInput.value = "";
   hint.classList.remove("success", "error");
