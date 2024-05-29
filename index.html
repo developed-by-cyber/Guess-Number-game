@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing Game</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="game">
+        <div id="modal">
+          <div class="hh">
+            <i id="close" class="ri-close-line"></i>
+            <div class="modal-content">
+              <h2>Rules</h2>
+              <p>>> Choose a value between 1 to 100</p>
+              <p>>> You will be given only 3 chances</p>
+              <p>>> Check top right for remaining guesses you have left</p>
+              <p>>> Optimize your guesses based on hints</p>
+            </div>
+          </div>
+        </div>
+        <div class="holder">
+          <div id="help" class="help">?</div>
+          <div class="bar-hold">
+            <div class="bars"><div class="bar" id="bar"></div></div>
+            <p><span id="no-of-guesses">3</span> Guesses Left</p>
+          </div>
+        </div>
+        <img src="./images/image.png" alt="" />
+        <div id="hint"></div>
+        <h3>Guess a number between 1-100.<br /></h3>
+        <div class="input-wrapper">
+          <input type="number" placeholder="0" id="guess" />
+          <button id="check-btn">Guess</button>
+        </div>
+      </div>
+      <div class="result">
+        <div class="img-hold">
+          <img src="./images/sad.png" id="sad" alt="" />
+          <img src="./images/confetti.gif" id="confetti" alt="" />
+        </div>
+        <div id="hint2"></div>
+      </div>
+      <button id="restart">Restart</button>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
